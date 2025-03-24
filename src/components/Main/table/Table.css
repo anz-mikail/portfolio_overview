@@ -1,0 +1,28 @@
+.TableContainer, .TableContainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    list-style-type: none;
+}
+.TableContainer li{
+    text-align: center;
+    width: 170px;
+}
+.TableContainer2 {
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+}
+.TableContainer2 li{
+    align-content: center;
+    text-align: center;
+    width: 170px;
+    height: 40px;
+}
+.TableContainer2:hover {
+    background-color: #e3e8e8;
+}
+.TableContainer2:active {
+    background-color: #bcd0e8;
+}

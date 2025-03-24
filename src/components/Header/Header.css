@@ -1,0 +1,38 @@
+.Header {
+    align-items: center;
+    background-color: #953838;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    z-index: 10;
+
+}
+.Header p {
+    color: white;
+    font-size: 25px;
+}
+.Header :nth-child(2){
+    text-align: center;
+}
+.Header button {
+    position: absolute;
+    left: 5px;
+    top: 124px;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 28px;
+    z-index: 10;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    color: #953838;
+    font-weight: 600;
+}
+.Header button:hover {
+    background-color: #e3e8e8;
+}
+.Header button:active {
+    background-color: #bcd0e8;
+}

@@ -1,0 +1,49 @@
+.ListContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 400px;
+    border-radius: 10px;
+    left: -850px;
+    top: -60px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    transform: translateX(0px);
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.ListContainer.active {
+    transform: translateX(456px);
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.ListCurrencyContainer {
+    margin: 20px;
+    width: 90%;
+    height: 300px;
+    align-self: center;
+    overflow: scroll;
+}
+.ListCurrencyStr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+    margin: 0 30px;
+    padding: 0;
+}
+.ListCurrencyStr.active {
+    display: none;
+}
+.ListCurrencyStr:hover {
+    background-color: #d9eaea;
+    border-radius: 5px;
+}
+.ListCurrencyStr:active {
+    background-color: #93e1e1;
+}

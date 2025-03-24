@@ -1,0 +1,17 @@
+.Body {
+    margin-top: 250px;
+    text-align: center;
+    height: 100%;
+    transform: translateX(0);
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+.Body.active{
+    transform: translateX(400px);
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}

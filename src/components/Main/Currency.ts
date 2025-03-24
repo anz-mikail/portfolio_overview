@@ -1,0 +1,20 @@
+export const Currency = [
+    'btcusdt',
+    'ethusdt',
+    'bnbusdt',
+    'neousdt',
+    'ltcusdt',
+    'qtumusdt',
+    'adausdt',
+    'xrpusdt',
+    'eosusdt',
+    'tusdusdt',
+    'iotausdt',
+    'xlmusdt',
+    'ontusdt',
+    'trxusdt',
+    'etcusdt',
+    'icxusdt',
+    'oneusdt',
+    'algousdt'
+]

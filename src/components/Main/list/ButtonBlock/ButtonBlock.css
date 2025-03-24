@@ -1,0 +1,49 @@
+.ListButtonContainer {
+    display: none;
+}
+.ListButtonContainer.active {
+    display: block;
+    margin-bottom: 20px;
+}
+.ListSearch, .ListSum {
+    margin-top: 20px;
+    width: 90%;
+    font-size: 18px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.ListSearch {
+    margin-top: 40px;
+}
+.ListSum.active {
+    border-color: rgba(255, 0, 0, 0.6);
+    color: rgba(255, 0, 0, 0.6);
+}
+.ListSum.active::placeholder {
+    color: rgba(255, 0, 0, 0.4);
+}
+.ListError {
+    height: 15px;
+    font-size: 15px;
+    margin: 0 0 10px 20px;
+    text-align: start;
+    color: rgba(255, 0, 0, 0.6);
+}
+.ListButton {
+    background-color: #acb1ae;
+    width: 150px;
+    height: 40px;
+    margin: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.ListButton:hover {
+    background-color: #d6dad8;
+}
+.ListButton:active {
+    color: #ffffff;
+    border: #ffffff;
+}
